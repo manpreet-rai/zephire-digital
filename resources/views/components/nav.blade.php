@@ -4,12 +4,7 @@
             <!-- Logo Section -->
             <div class="flex items-center">
                 <div class="flex-shrink-0 flex items-center">
-                    <!-- SVG logo -->
-                    <svg width="40" height="40" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" class="mr-3">
-                        <path d="M8 15 L32 25 L8 35 Z" fill="#FF6B35"/>
-                        <path d="M8 15 L32 25 L22 15 Z" fill="#FF8A5C"/>
-                    </svg>
-                    <span class="text-xl font-bold gradient-text">Zephire Digital</span>
+                    <img class="scale-50" src="{{ asset('/logo-dark.png') }}" alt="logo">
                 </div>
             </div>
 
